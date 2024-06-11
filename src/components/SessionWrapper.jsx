@@ -4,7 +4,7 @@ const SessionWrapper = ({children}) => {
   return (
    <SessionProvider>
     {children}
-   </SessionProvider>
+   </SessionProvider> 
   )
 };
 
