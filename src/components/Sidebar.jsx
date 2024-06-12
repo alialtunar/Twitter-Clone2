@@ -37,8 +37,8 @@ const Sidebar = () => {
 </div>
 {
   session && (
-    <div className="text-gray-700 text-sm flex items-center cursor-pointer p-3 hover:bg-gray-100 rounded-full transition-all duration-200">
-      <img className="h-10 w-10 rounded-fullxlÇmr-2" src={session.user.image} alt="user-img" />
+    <div className="text-gray-700 text-sm flex items-center cursor-pointer p-3 hover:bg-gray-100 rounded-full transition-all duration-200 mb-1">
+      <img className="h-10 w-10 rounded-full xl:mr-2" src={session.user.image} alt="user-img" />
       <div className="hidden xl:inline">
         <h4 className="font-bold">
           {session.user.name}
