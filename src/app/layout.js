@@ -12,6 +12,9 @@ export const metadata = {
   description: "Twitter Clone using next.js",
 };
 
+
+export const dynamic = 'force-dynamic'
+
 export default function RootLayout({ children }) {
   return (
     <SessionWrapper>
